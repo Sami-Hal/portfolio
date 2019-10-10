@@ -1,0 +1,14 @@
+body{
+    background: darkgoldenrod;
+}
+#container{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+}
+#container > *{
+    border: 2px solid black;
+    background: darkorange;
+    height: 500px;
+}
