@@ -1,5 +1,13 @@
+/* colors:
+    #23374d dark blue
+    #1089ff blue
+    #e5e5e5 white
+*/
+
 body{
-    background: darkgoldenrod;
+    background: #23374d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 #container{
     /* display: grid;
@@ -8,15 +16,16 @@ body{
     width: 100%; */
 }
 #container > *{
-    border: 2px solid black;
-    background: darkorange;
-    /* height: 500px; */
+    padding: 10px;
+    background: #1089ff;
+    margin: auto 20px;
 }
 #practice h2{
     text-align: center;
 }
 h1{
     text-align: center;
+    color: #e5e5e5;
 }
 p{
     text-align: center;
