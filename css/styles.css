@@ -7,7 +7,7 @@
 body{
     background: #23374d;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 1.3em;
 }
 #container{
     /* display: grid;
@@ -18,10 +18,12 @@ body{
 #container > *{
     padding: 10px;
     background: #1089ff;
-    margin: auto 20px;
+    margin: auto 50px;
+    
 }
 #practice h2{
     text-align: center;
+    font-size: 1.5em
 }
 h1{
     text-align: center;
@@ -29,4 +31,8 @@ h1{
 }
 p{
     text-align: center;
+}
+li > a:first-child{
+    font-size: 30px;
+    line-height: 1.5em
 }
