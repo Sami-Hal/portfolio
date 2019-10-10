@@ -2,13 +2,19 @@ body{
     background: darkgoldenrod;
 }
 #container{
-    display: grid;
+    /* display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;
     gap: 10px;
-    width: 100%;
+    width: 100%; */
 }
 #container > *{
     border: 2px solid black;
     background: darkorange;
-    height: 500px;
+    /* height: 500px; */
+}
+#practice h2{
+    text-align: center;
+}
+h1{
+    text-align: center;
 }
